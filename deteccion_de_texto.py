@@ -8,8 +8,7 @@ Created on Sat Aug  8 21:09:03 2020
 import cv2
 import pytesseract
 
-
-imagen = cv2.imread("texto_largo.png")
+imagen = cv2.imread("botella.png")
 pytesseract.pytesseract.tesseract_cmd="C:\\Program Files\\Tesseract-OCR\\tesseract.exe"
 texto=pytesseract.image_to_string(imagen)
 print(texto)
