@@ -4,10 +4,8 @@ Created on Sun Aug  9 17:08:41 2020
 
 @author: Admin
 """
-
 import fresas_rojas as fr
 import cv2
-
 captura = cv2.VideoCapture("fresas3.mp4")
 
 if captura.isOpened()==False:
